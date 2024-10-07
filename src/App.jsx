@@ -1,5 +1,6 @@
 import NavigationBar from './components/NavigationBar/NavigationBar'
-import Hero from './components/Hero/Hero'
+import Hero from './components/Hero/Hero';
+import Video from './components/VideoSection/Video';
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavigationBar/>
       <Hero/>
+      <Video/>
     </>
   )
 }
