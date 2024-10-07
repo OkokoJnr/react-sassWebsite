@@ -1,0 +1,30 @@
+/* .pricing .pricing-grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+} */
+
+.pricing .pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+.pricing .pricing-card-subheading{
+    margin-bottom: 30px;
+    }
+    
+    .pricing .pricing-card-price{
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+    }
+    
+    .pricing ul{
+      margin: 30px 0;
+    }
+    
+    .pricing ul li{
+      margin-bottom: 20px;
+    }

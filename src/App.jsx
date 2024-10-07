@@ -2,6 +2,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar'
 import Hero from './components/Hero/Hero';
 import Video from './components/VideoSection/Video';
 import Testimonials from './components/Testimonials/Testimonials';
+import Pricing from './components/Pricing/Pricing';
 
 import './App.css'
 
@@ -13,6 +14,7 @@ console.log('App components')
       <Hero/>
       <Video/>
       <Testimonials/>
+      <Pricing/>
     </>
   )
 }
