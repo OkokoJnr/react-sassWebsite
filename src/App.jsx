@@ -1,4 +1,5 @@
 import NavigationBar from './components/NavigationBar/NavigationBar'
+import Hero from './components/Hero/Hero'
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <NavigationBar/>
+      <Hero/>
     </>
   )
 }
