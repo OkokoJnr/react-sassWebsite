@@ -19,7 +19,6 @@ const testimonialList = [{
 
 ]
 function Testimonials (){
-    console.log('Testimonials components')
     return (<>
     <section class="testimonials bg-dark">
       <div class="container">

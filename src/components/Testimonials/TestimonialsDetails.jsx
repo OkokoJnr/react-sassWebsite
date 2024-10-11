@@ -1,5 +1,4 @@
 function TestimonialsDetails({name, role, text}){
-    console.log('Details Component')
     return (<>
         <div class="card">
             <p>{`"${text}"`}</p>

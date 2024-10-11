@@ -1,0 +1,13 @@
+.faq{
+    padding: 40px 0;
+}
+
+.faq .faq-group{
+    border-bottom: 1px solid #ccc;
+}
+
+.faq .faq-group .faq-group-header{
+    padding: 20px 0;
+    margin-bottom: 15px;
+    position: relative;
+}

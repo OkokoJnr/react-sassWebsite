@@ -37,10 +37,8 @@ function Pricing(){
      <p class="pricing-footer text-center">
           All prices are in USD and charged per month with applicable taxes
           added at checkout.
-        </p>
-            
-            </div>
-       
+        </p>            
+            </div>      
                 </section>
     </>)
 }
