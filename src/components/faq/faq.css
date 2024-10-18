@@ -11,3 +11,11 @@
     margin-bottom: 15px;
     position: relative;
 }
+.faq .faq-menu{
+    display: flex;
+    align-items: center;
+}
+
+.faq .faq-menu li{
+    margin-left: 20px;
+}

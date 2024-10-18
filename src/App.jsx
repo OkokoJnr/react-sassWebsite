@@ -3,7 +3,8 @@ import Hero from './components/Hero/Hero';
 import Video from './components/VideoSection/Video';
 import Testimonials from './components/Testimonials/Testimonials';
 import Pricing from './components/Pricing/Pricing';
-import Faq from './components/faq/Faq';
+//import Faq from './components/faq/Faq';
+import FAQ from './components/faq/Faq';
 import './App.css'
 
 function App() {
@@ -15,7 +16,7 @@ console.log('App components')
       <Video/>
       <Testimonials/>
       <Pricing/>
-      <Faq/>
+      <FAQ/>
     </>
   )
 }

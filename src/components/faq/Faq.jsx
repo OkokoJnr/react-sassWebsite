@@ -24,12 +24,12 @@ let faq = [
     }
 ]
 
-let showfaQuestion = false;
 function Faq(){
- let [showfaq, setShowFaq] = useState(showfaQuestion)
- function updateShowFaq(event){
-    console.log(event.target)
-    setShowFaq(!showfaq)
+
+ // Define state to track which FAQ is open
+  const [openFAQ, setOpenFAQ] = useState(0);
+   function togglefaq(index){
+    setOpenFAQ(openFAQ === index ? null:index)
  }
     return (<>
     <section className="faq bg-light">
@@ -42,8 +42,8 @@ function Faq(){
             </ul>
             <div className="faq-content">
                 {
-                    faq.map((faq)=>{
-                        return <FaqDetails faq={faq} eventHandler={updateShowFaq} showfaQuestion={showfaq}/>
+                    faq.map((faq, index)=>{
+                      return <FaqDetails key={index} faq={{...faq, index:index}} eventHandler={togglefaq} openFAQ={openFAQ}/>
                     })
                 }
             </div>

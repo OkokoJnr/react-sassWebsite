@@ -1,12 +1,12 @@
-function FaqDetails({faq, eventHandler, showfaQuestion}){
+function FaqDetails({faq, eventHandler, openFAQ}){
     
     return (<>
-            <div className="faq-group">
-                    <div className="faq-group-header" onClick={eventHandler}>
+            <div className="faq-group" key={faq.index}>
+                    <div className="faq-group-header" onClick={()=>{eventHandler(faq.index)}}>
                         <h4 className="text-md">{faq.question}</h4>
                         <i className="fas fa-minus">+</i>
                     </div>
-                    {showfaQuestion && <div className="faq-group-body open">
+                    {openFAQ  === faq.index && <div className="faq-group-body open">
                         <p>{faq.answer}</p>
                     </div>}
                 </div>
